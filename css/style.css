@@ -82,6 +82,8 @@ h1{
     padding: 15px 10px 10px 10px;
     text-align: center;
     border: solid black 1px;
+    transform: skew(15deg,05deg);
+
 }
 .g2{
     grid-area: g2;
@@ -106,7 +108,7 @@ h1{
 }
 
 .gridazul2{
-    background-color:#23578D;
+    background-image: linear-gradient(to right, blue, violet, navy);
     padding: 30px 60px 30px 60px;
     display: grid;
 
@@ -143,7 +145,7 @@ h1{
 @media screen and (max-width: 1024px)
 {
 .gridazul2{
-    background-color:#23578D;
+    background-image: linear-gradient(to right, rgb(0, 247, 255), violet, rgb(0, 128, 11));
     padding: 30px 60px 30px 60px;
     display: grid;
     gap: 5px 10px; 
@@ -190,6 +192,7 @@ h1{
         padding: 15px 10px 10px 10px;
         text-align: center;
         border: solid black 1px;
+        transform: skew(01deg,10deg);
     }
     .g2{
         grid-area: g2;
