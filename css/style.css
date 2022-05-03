@@ -128,6 +128,16 @@ h1{
     grid-area: f3;
 }
 
+.centro {
+    text-align: center;
+    background-color: rgb(212, 212, 218);
+}
+
+.gridazul3{
+    background-image: linear-gradient(to right, rgb(0, 247, 255), violet, rgb(0, 128, 11));
+    padding: 30px 60px 30px 60px;
+   text-align: center;
+}
 
 .footi{
     display: flex;
