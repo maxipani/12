@@ -1,0 +1,14 @@
+@import "../variables/variables";
+
+@mixin flex-centrar {
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+@mixin letra {
+    font-family: $tipo-de-letra;
+    line-height: 1.5;
+    font-style: italic;
+    
+}

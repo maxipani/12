@@ -1,0 +1,8 @@
+@import "variables/variables";
+@import "sass2/extend";
+@import "sass2/mixins";
+
+footer{
+    @extend .header-footer;
+    @include flex-centrar;
+}
